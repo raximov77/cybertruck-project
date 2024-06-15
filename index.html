@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERTRUCK | Tesla</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/site-favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    <img onclick="topFunction()" id="myBtn" src="./images/triangle.svg" alt="scroll button">
+    
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <img data-aos="flip-up" data-aos-duration="800" class="site-logo" src="./images/Cybertruck-logo.svg" alt="Cybertruck-logo" width="400" height="113">
+
+                <p data-aos="fade-up" data-aos-anchor-placement="top-center" class="hero-text">BETTER UTILITY THAN A TRUCK WITH MORE PERFORMANCE THAN A SPORTS CAR </p> 
+                
+                <button class="hero-btn">Order now</button>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="main-section">
+        <div class="container">
+            <section class="exoskeleton"> 
+                <div  class="skeleton">
+                    <div data-aos="fade-right" data-aos-duration="800"  class="skeleton-content">
+                        <h2 class="skeleton-title">EXOSKELETON</h2>
+                    <p class="skeleton-text">Cybertruck is built with an exterior shell made for ultimate durability and passenger protection. Starting with a nearly impenetrable exoskeleton, every component is designed for superior strength and endurance, from Ultra-Hard 30X Cold-Rolled stainless-steel structural skin to Tesla armor glass.</p>
+                    </div>
+
+                    <img data-aos="fade-left" data-aos-duration="800"  class="skeleton-img" src="./images/skeleton-img.svg" alt="Skeleton" width="600" height="336">
+                </div>
+
+                <div class="ultra-hard">
+                    <img data-aos="fade-right" data-aos-duration="800" class="ultra-hard-img" src="./images/ultra-hardi-img.svg" alt="Ultra-hard" width="600" height="336">
+
+                    <div data-aos="fade-left" data-aos-duration="800" class="ultra-hard-content">
+                        <h2 class="ultra-hard-title">ULTRA-HARD 30X COLD-ROLLED STAINLESS STEEL</h2>
+                        <p class="ultra-hard-text">If there was something better, we'd use it. Help eliminate dents, damage and long-term corrosion with a smooth monochrome exoskeleton that puts the shell on the outside of the car and provides you and your passengers maximum protection.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="versatile-utility">
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="versatile-effect">
+                <h2 class="utility-title">VERSATILE UTILITY</h2>
+                <p class="utility-text">With up to 3,500 pounds of payload capacity and adjustable air suspension, Cybertruck is the most powerful tool we have ever built, engineered with 100 cubic feet of exterior, lockable storage — including a magic tonneau cover that is strong enough to stand on.</p>
+        
+                </div>
+                <img data-aos="fade-up"
+                data-aos-duration="3000" class="utility-img" src="./images/utility.png" alt="Utility" width="1170" height="638">
+                
+
+                <div data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" class="vault">
+                    <h2 class="vault-title">VAULT-LIKE STORAGE</h2>
+                    <p class="vault-text">Space for your toolbox, tire and Cyberquad, with room to spare. Utilize 100 cubic feet of exterior, lockable storage — including the under-bed, frunk and sail pillars.</p>
+                    <img data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom" class="vault-img" src="./images/vault.png" alt="Vault" width="1170" height="636">
+                </div>
+            </section>
+
+            <section class="performance">
+                <h2 data-aos="fade-up-right" data-aos-duration="800" class="performance-title">PERFORMANCE AND EFFICIENCY</h2>
+                <p data-aos="fade-up-right" class="performance-text">Now entering a new class of strength, speed and versatility—only possible with an all-electric design. The powerful drivetrain and low center of gravity provides extraordinary traction control and torque—enabling acceleration from 0-60 mph in as little as 2.9 seconds and up to 500 miles of range.</p>
+                <img data-aos="fade-up-left" data-aos-duration="800" class="performance-img" src="./images/performance.png" alt="Performance and Efficiency" width="1170" height="585">
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <img class="footer-img" src="./images/footer.png" alt="Logo" width="897" height="436">
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    
+</body>
+</html> 
